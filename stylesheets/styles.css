@@ -3,6 +3,7 @@
 @import 'header.css';
 @import 'main.css';
 @import 'feed.css';
+@import 'content_containers.css';
 
 html, body {
     width: 100%;

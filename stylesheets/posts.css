@@ -8,6 +8,7 @@
     background-color: antiquewhite;
     display: flex;
     flex-direction: column;
+    padding: .5em 0;
 }
 
 .postbox {
@@ -22,9 +23,12 @@
 }
 
 .update_post_entry {
-    margin: 0 0 .5em 0;
     text-align: center;
     padding: .5em 0 .5em 0;
+}
+
+.video_poster {
+    padding-left: .5em;
 }
 
 .update_post_input {

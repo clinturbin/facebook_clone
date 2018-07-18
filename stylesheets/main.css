@@ -11,19 +11,10 @@
     }
 }
 
-.img_content_container {
-    display: flex;
-    flex-direction: row;
-
-    margin: .5em;
-}
-
 .link {
     font-size: 1.4em;
     padding-left: .5em;
     align-self: center;
 }
 
-.icon {
-    height: 100%;
-}
+
