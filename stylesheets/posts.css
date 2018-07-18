@@ -27,7 +27,7 @@
     padding: .5em 0 .5em 0;
 }
 
-.video_poster {
+.poster {
     padding-left: .5em;
 }
 
@@ -50,6 +50,14 @@
         height: 80%;
         overflow-y: auto;
         display: inline-block;
+    }
+
+    .update_status {
+        height: 12%;
+    }
+    .posts {
+        height: 88%;
+        overflow-y: auto;
     }
 }
 

@@ -9,7 +9,7 @@
     flex-direction: row;
     width: 75%;
     margin: auto;
-    margin-bottom: .6em;
+    margin-bottom: 1em;
 }
 
 .video_img_container {
@@ -28,7 +28,26 @@
     height: 5rem;
 }
 
+.big_img_container {
+    height: 25rem;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
 
 .icon {
     height: 100%;
 }
+
+.text_post {
+    width: 75%;
+    margin: .7em auto;
+}
+
+.poster_name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: .3em 0 1em 0;
+}
+
