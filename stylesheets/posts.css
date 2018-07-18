@@ -1,7 +1,24 @@
-.posts {
+/* .posts {
     background-color: aliceblue;
     width: 100%;
     vertical-align: top;
+    height: 55%;
+    overflow-y: auto;
+} */
+
+.middle_container {
+    background-color: aliceblue;
+    width: 100%;
+    vertical-align: top;
+    height: 55%;
+}
+
+.update_status {
+    height: 15%
+}
+
+.posts {
+    height: 85%;
     overflow-y: auto;
 }
 
@@ -11,12 +28,21 @@
     width: 100%;
 }
 
-.update {
-    height: 8em;
+.update_post_choice {
+    display: flex;
+    margin-bottom: .5em;
 }
 
+
+.post_img_container {
+    height: 20px;
+    display: inline-block;
+}
+
+
+
 @media(min-width: 768px) {
-    .posts {
+    .middle_container {
         width: 64%;
         height: 80%;
         display: inline-block;
@@ -24,7 +50,7 @@
 }
 
 @media(min-width: 1024px) {
-    .posts {
+    .middle_container {
         height: 100%;
         width: 50%;
     }
