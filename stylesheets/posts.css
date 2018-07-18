@@ -2,6 +2,7 @@
     background-color: aliceblue;
     width: 100%;
     vertical-align: top;
+    overflow-y: auto;
 }
 
 .postbox {
@@ -17,12 +18,14 @@
 @media(min-width: 768px) {
     .posts {
         width: 64%;
+        height: 80%;
         display: inline-block;
     }
 }
 
 @media(min-width: 1024px) {
     .posts {
+        height: 100%;
         width: 50%;
     }
 }

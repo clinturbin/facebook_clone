@@ -1,29 +1,38 @@
 .feed {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
     background-color: aquamarine;
-    justify-content: center;
+    /* justify-content: center; */
+    text-align: center;
+    overflow-y: auto;
 }
 
 .feed_box {
     width: 49%;
     border: 1px solid black;
+    display: inline-block;
 }
 
 
 
 @media(min-width: 768px) {
     .feed {
-        /* width: 64%; */
-        /* display: inline-block; */
+        height: 20%;
+        width: 100%;
+        display: inline-block;
     }
 }
 
 @media(min-width: 1024px) {
     .feed {
         width: 24%;
+        height: 100%;
         display: inline-block;
         vertical-align: top;
+    }
+
+    .feed_box {
+        width: 98%;
     }
 }
