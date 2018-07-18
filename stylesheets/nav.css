@@ -4,7 +4,6 @@
     flex-wrap: wrap;
     background-color: yellow;
     border-bottom: 2px solid black;
-    height: 25%;
     overflow-y: auto;
 }
 
@@ -25,11 +24,11 @@
 }
 
 .nav_img_container {
-    height: 20px;
+    height: 2rem;
 }
 
 .user_img_container {
-    height: 50px;
+    height: 5rem;
 }
 
 

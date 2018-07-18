@@ -1,25 +1,13 @@
-/* .posts {
-    background-color: aliceblue;
-    width: 100%;
-    vertical-align: top;
-    height: 55%;
-    overflow-y: auto;
-} */
-
 .middle_container {
     background-color: aliceblue;
     width: 100%;
     vertical-align: top;
-    height: 55%;
 }
 
 .update_status {
-    height: 15%
-}
-
-.posts {
-    height: 85%;
-    overflow-y: auto;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
 }
 
 .postbox {
@@ -28,23 +16,35 @@
     width: 100%;
 }
 
-.update_post_choice {
+.update_post_options {
     display: flex;
-    margin-bottom: .5em;
+    margin-bottom: .5em 0;
 }
 
+.update_post_entry {
+    margin: 0 0 .5em 0;
+    text-align: center;
+    padding: .5em 0 .5em 0;
+}
+
+.update_post_input {
+    text-decoration: none;
+    width: 90%;
+    border: 1px solid gray;
+    font-size: 1.3em;
+    padding-left: .5em;
+}
 
 .post_img_container {
-    height: 20px;
+    height: 2rem;
     display: inline-block;
 }
-
-
 
 @media(min-width: 768px) {
     .middle_container {
         width: 64%;
         height: 80%;
+        overflow-y: auto;
         display: inline-block;
     }
 }
