@@ -3,6 +3,7 @@
     justify-content: center;
     flex-wrap: wrap;
     background-color: yellow;
+    border-bottom: 2px solid black;
 }
 
 .navbox {
@@ -14,8 +15,6 @@
     margin: .2em;
     padding: .5em;
     display: inline-block;
-    /* display: flex;
-    flex-direction: column; */
 }
 
 .nav_title {
@@ -24,13 +23,13 @@
     text-align: center;
 }
 
-.nav_item {
+.navbox .img_content_container {
     display: flex;
     flex-direction: row;
     margin-bottom: .5em;
 }
 
-.nav_icon_container {
+.nav_img_container {
     height: 20px;
 }
 
@@ -47,6 +46,8 @@
     .nav {
         flex-direction: column;
         width: 35%;
+        border-right: 2px solid black;
+        display: inline-block;
     }
 
     .navbox {
@@ -64,5 +65,4 @@
         flex-direction: column;
         width: 25%;
     }
-
 }

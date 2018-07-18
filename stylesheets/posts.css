@@ -1,0 +1,28 @@
+.posts {
+    background-color: aliceblue;
+    width: 100%;
+    vertical-align: top;
+}
+
+.postbox {
+    border-bottom: 1px solid black;
+    margin-top: 1em;
+    width: 100%;
+}
+
+.update {
+    height: 8em;
+}
+
+@media(min-width: 768px) {
+    .posts {
+        width: 64%;
+        display: inline-block;
+    }
+}
+
+@media(min-width: 1024px) {
+    .posts {
+        width: 50%;
+    }
+}

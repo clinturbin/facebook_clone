@@ -1,0 +1,29 @@
+.feed {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    justify-content: center;
+}
+
+.feed_box {
+    width: 49%;
+    border: 1px solid black;
+}
+
+
+
+@media(min-width: 768px) {
+    .feed {
+        /* width: 64%; */
+        /* display: inline-block; */
+    }
+}
+
+@media(min-width: 1024px) {
+    .feed {
+        width: 24%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}

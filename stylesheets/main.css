@@ -1,0 +1,18 @@
+.main_content_container {
+    display: block;
+    width: 100%;
+}
+
+@media(min-width: 768px) {
+    .main_content_container {
+        display: inline-block;
+    }
+}
+
+.user_img_container {
+    height: 50px;
+}
+
+.user_name {
+    font-size: 1.5em;
+}

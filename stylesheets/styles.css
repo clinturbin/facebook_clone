@@ -1,4 +1,8 @@
 @import 'nav.css';
+@import 'posts.css';
+@import 'header.css';
+@import 'main.css';
+@import 'feed.css';
 
 html, body {
     width: 100%;
@@ -8,27 +12,3 @@ html, body {
     box-sizing: border-box;
     margin: 0;
 }
-
-.header {
-    height: 4em;
-    background-color: blue;
-}
-
-/* .userprofile {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.profilepic {
-    height: 30px;
-}
-
-.userprofile img {
-    height: 100%;
-}
-
-.userprofile p {
-    padding-left: 1em;
-} */
