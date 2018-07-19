@@ -31,12 +31,14 @@
     padding-left: .5em;
 }
 
-.update_post_input {
+.input-text {
     text-decoration: none;
     width: 90%;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
+    border-width: 0;
     font-size: 1.3em;
     padding-left: .5em;
+    outline: none;
 }
 
 .post_img_container {
