@@ -2,16 +2,15 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: yellow;
-    border-bottom: 2px solid black;
+    padding: 1.5em 0;
+    border-bottom: 2px solid #6d84b4;
     overflow-y: auto;
+    background-color: #d8dfea;
 }
 
 .navbox {
     width: 11em;
     margin: .2em 0;
-    background-color: white;
-    border: 1px solid black;
     margin: .2em;
     padding: .5em;
     display: inline-block;
@@ -30,6 +29,7 @@
         width: 35%;
         height: 80%;
         display: inline-block;
+        border-bottom: none;
     }
 
     .navbox {

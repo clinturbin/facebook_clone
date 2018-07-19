@@ -1,20 +1,21 @@
 .middle_container {
-    background-color: aliceblue;
     width: 100%;
     vertical-align: top;
 }
 
 .update_status {
-    background-color: antiquewhite;
     display: flex;
     flex-direction: column;
     padding: .5em 0;
+    background-color: #afbdd4;
+    border-bottom: 2px solid #6d84b4;
+    padding: 1em 0;
 }
 
 .postbox {
-    border-bottom: 1px solid black;
-    margin-top: 1em;
+    padding: 1em;
     width: 100%;
+    border-bottom: 2px solid #6d84b4;
 }
 
 .update_post_options {
@@ -52,6 +53,7 @@
         height: 80%;
         overflow-y: auto;
         display: inline-block;
+        border-left: 2px solid #6d84b4;
     }
 
     .update_status {
